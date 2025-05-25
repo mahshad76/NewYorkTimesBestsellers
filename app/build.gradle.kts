@@ -52,12 +52,19 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.recyclerview)
     //retrofit
-    implementation (libs.gson)
+    implementation(libs.gson)
+    implementation(libs.okhttp)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation (libs.adapter.rxjava2)
     //dagger2
     implementation(libs.dagger)
     implementation(libs.dagger.compiler)
     implementation(libs.play.services.analytics.impl)
     implementation(libs.androidx.constraintlayout)
+    // RxJava 2
+    implementation(libs.rxjava)
+    implementation(libs.rxandroid)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
