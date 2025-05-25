@@ -51,9 +51,14 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.recyclerview)
+    //retrofit
+    implementation (libs.gson)
     //dagger2
     implementation(libs.dagger)
     implementation(libs.dagger.compiler)
+    implementation(libs.play.services.analytics.impl)
+    implementation(libs.androidx.constraintlayout)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
