@@ -56,15 +56,18 @@ dependencies {
     implementation(libs.okhttp)
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
-    implementation (libs.adapter.rxjava2)
+    implementation(libs.adapter.rxjava2)
     //dagger2
     implementation(libs.dagger)
     implementation(libs.dagger.compiler)
     implementation(libs.play.services.analytics.impl)
     implementation(libs.androidx.constraintlayout)
-    // RxJava 2
+    // RxJava2
     implementation(libs.rxjava)
     implementation(libs.rxandroid)
+    //okhttp3
+    debugImplementation(libs.logging.interceptor)
+    releaseImplementation(libs.logging.interceptor)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
