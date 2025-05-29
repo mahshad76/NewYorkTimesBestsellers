@@ -59,9 +59,9 @@ dependencies {
     implementation(libs.adapter.rxjava2)
     //dagger2
     implementation(libs.dagger)
-    implementation(libs.dagger.compiler)
     implementation(libs.play.services.analytics.impl)
     implementation(libs.androidx.constraintlayout)
+    kapt (libs.dagger.compiler)
     // RxJava2
     implementation(libs.rxjava)
     implementation(libs.rxandroid)
